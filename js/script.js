@@ -1,3 +1,8 @@
+let timer = document.querySelector("#timer");
+let question = document.querySelector("#question");
+let responses = document.querySelector("#responses");
+let line = document.querySelector("#line");
+let responseStatus = document.querySelector("#rightOrWrong");
 // logic for the quiz
 // from the click button
 //  start the timer
@@ -12,40 +17,53 @@
 
 var questions = [
     {
-        question: "Commonly used data types DO NOT include: ",
+        title: "Commonly used data types DO NOT include: ",
         responses: ["Strings","Numbers","Booleans","Alerts"],
         answer: "Alerts"
     },
     {
-        question: "An Array's individual element can be accessed via its: ",
+        title: "An Array's individual element can be accessed via its: ",
         responses: ["Method","Index","Memory","Address"],
         answer: "Index"
     },
     {
-        question: "If '8' is a string, then 8 is a/an: ",
+        title: "If '8' is a string, then 8 is a/an: ",
         responses: ["Number","Boolean","Character","Object"],
         answer: "Number"
     },
     {
-        question: "You can iterate through an Array with a/an: ",
+        title: "You can iterate through an Array with a/an: ",
         responses: ["Do-While-Loop","While-Loop","Iterator","For-Loop"],
         answer: "For-Loop"
     },
     {
-        question: "If I have an Array with 5 elements, what will array.length return? ",
+        title: "If I have an Array with 5 elements, what will array.length return? ",
         responses: ["1","0","4","5"],
         answer: "5"
     }
 ]
 
-for(let i = 0; i < questions.length; i++){
+function startGame(){
 
-    console.log("Object" , i, "Question: ", questions[i].question);
-    
-    for(let i = 0; i < questions[i].responses.length; i++){
-        console.log("Response" , i,questions[i].responses[i]);
-    }
-    
-    console.log("Object" , i, "Answer: ", questions[i].answer);
+}
+
+function endGame(){
+
+}
+
+function getQuestion(){
+
+}
+
+function getResponses(){
+
+}
+
+function getTimer(){
     
 }
+
+function compareResponseToAnswer(){
+
+}
+

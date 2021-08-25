@@ -2,3 +2,30 @@
 *{
     font-family: Verdana, sans-serif;
 }
+
+header > h3{
+    display: inline-flex;
+    margin: 2rem;
+}
+
+section{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 3rem;
+}
+
+#timer-container{
+    float:right;
+    margin-right: 2rem;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    padding: 0.85rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
