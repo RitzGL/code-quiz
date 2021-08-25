@@ -29,3 +29,28 @@ button{
     border-radius: 5px;
     text-decoration: none;
 }
+
+ul > li > button{
+    padding: 0.55rem;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition:all 0.6s;
+}
+
+ul > li > button:hover{
+    padding: 0.55rem;
+    background-color: black;
+    color: white;
+}
+
+ul > li{
+    list-style-type: none;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: block;
+}
+
+ul{
+    margin-top: 3rem;
+}
